@@ -7,7 +7,7 @@ Code refactoring is the process of editing and cleaning up previously written co
 without changing the intended function of the code itself. The purpose of refactoring is
 to make subsequent maintenence of the code more efficient - this is done by making the code more readable (adding cohesiveness to the overall code structure) and by checking that all interactive elements, such as links, as operating as anticipated. Expanding on the readability of the code, several CSS selectors and properties were consolidated to make the stylesheet more concise, and the CSS code structure was altered to match the semantic structure of the HTML elements. 
 
-An additional aim of refactoring is to make the code more accessible to those with disabilities and/or socio-economic limitations. This is achieved by adding alt attributes to all images, describing the content of the image, adding comment descriptions before each HTML element, and using semantic HTML tags. 
+An additional aim of refactoring is to make the code more accessible to those with disabilities and/or socio-economic limitations. This is achieved by adding alt attributes to all images, describing the content of the image, adding comment descriptions before each HTML element, and using semantic HTML tags. The use of semantic HTML tags over non-semantic HTML tags is also beneficial for search engine optimization. 
 
 ## Table of Contents
 
@@ -28,9 +28,9 @@ I noticed that the navigation bar links directed us to the corresponding descrip
 
 **Code Structure & Accessibility:**
 
+For the HTML code my first step was adding the search-engine-optimization ID to the main content to fix the non-operational navigation bar link mentioned above. I then added semantic HTML tags to the appropriate sections, including the header, nagivation bar, background image, main content, side-bar, and footer. Changing the header and navigation bar tags required similar adjustments to the corresponding CSS selectors. To make the code even more accessible, I added alt attributes to all images, and brief comments before each element to describe the content.
 
-
-
+For the CSS code my first step was restructuring it so that it flowed with the HTML code. I then took a look at common CSS selectors for each given section of the site (eg main, aside). Noticing that all main content header, image, and section selectors contained the same properties, i consolidated each selector category to make the CSS code less bloated. I did the same thing with the side-bar header, image, and paragraph selectors. 
 
 ## Usage
 instructions and examples for use.

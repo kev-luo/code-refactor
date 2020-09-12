@@ -20,7 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .horiseon {
     color: #d9dcd6;
 }
 
@@ -45,6 +45,10 @@ body {
 .header a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
 }
 
 /* made class name more descriptive */
@@ -109,6 +113,14 @@ body {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+/* added benefits class heading selector */
+.benefits h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 25px;
 }
 
 /* consolidated all benefits paragraphs since they have the same properties */
