@@ -33,8 +33,10 @@ For the HTML code my first step was adding the search-engine-optimization ID to 
 For the CSS code my first step was restructuring it so that it flowed with the HTML code. I then took a look at common CSS selectors for each given section of the site (eg main, aside). Noticing that all main content header, image, and section selectors contained the same properties, i consolidated each selector category to make the CSS code less bloated. I did the same thing with the side-bar header, image, and paragraph selectors. 
 
 ## Usage
-instructions and examples for use.
-    include screenshots here.
+The main interactive function of the site is the use of the navigation bar links. These links direct you to the corresponding main content portion of the page. The screenshots below demonstrate this functionality:
+
+![Clicking on Search Engine Optimization link](/images/click-link.png)
+
 
 ## Credits
 list collaborators.
