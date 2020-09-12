@@ -1,6 +1,7 @@
 # Code-Refactor: Clean-Up Time
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 Code refactoring is the process of editing and cleaning up previously written code
@@ -35,21 +36,28 @@ For the CSS code my first step was restructuring it so that it flowed with the H
 ## Usage
 The main interactive function of the site is the use of the navigation bar links. These links direct you to the corresponding main content portion of the page. The screenshots below demonstrate this functionality:
 
-![Clicking on Search Engine Optimization link](/images/click-link.png)
+Clicking on Search Engine Optimization link
+![Clicking on Search Engine Optimization link](assets/images/click-link.png)
 
+Where you're directed after clicking the link
+![Where you're directed after clicking the link](assets/images/link-directed.png)
 
 ## Credits
-list collaborators.
-    for this project there were no collaborators.
-third-party assets that require attention?
-    if tru then list the creators with links to their primary web presence in this section.
-if any tutorials were followed, include those links here
+While there were no collaborators in this project, I relied heavily upon several tutorials found on MDN Web Docs, and Web3 Schools. You can find these tutorials by following the links below:
 
-## Tests
-running on different browsers to ensure compatability
+* [MDN Web Docs HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+* [MDN Web Docs Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+
+* [MDN Web Docs HTML: A Good Basis for Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+
+* [Web3 Schools HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=A%20semantic%20element%20clearly%20describes,%3E%20%2D%20Clearly%20defines%20its%20content.)
 
 ## License
 
-
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+Licensed under the [MIT](https://github.com/microsoft/vscode/blob/master/LICENSE.txt) License.
+
+
 
